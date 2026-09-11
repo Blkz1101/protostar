@@ -4,7 +4,10 @@
 // ==============================
 
 const elements = document.querySelectorAll(
-    ".history-section, .timeline-item, .value-card"
+    ".history-section, .timeline-item, .value-card, " +
+    ".contact-card, .social-link, .staff-card, " +
+    ".welcome-section, .specialty-content, " +
+    ".home-values-grid article, .home-final"
 );
 
 const observer = new IntersectionObserver(
@@ -12,9 +15,7 @@ const observer = new IntersectionObserver(
         entries.forEach((entry) => {
 
             if (entry.isIntersecting) {
-
                 entry.target.classList.add("show");
-
                 observer.unobserve(entry.target);
             }
 
@@ -25,11 +26,7 @@ const observer = new IntersectionObserver(
     }
 );
 
-
 elements.forEach((element) => {
-
     element.classList.add("hidden");
-
     observer.observe(element);
-
 });
