@@ -7,12 +7,6 @@
 
 const fotos = [
     {
-        archivo: "assets/galeria-exterior.jpeg",
-        alt: "Fachada de Carnicería Bigotes",
-        categoria: "NUESTRA CARNICERÍA",
-        titulo: "Exterior del negocio"
-    },
-    {
         archivo: "assets/galeria-historia.jpeg",
         alt: "Interior de la carnicería con retratos familiares",
         categoria: "DESDE 1890",
@@ -35,12 +29,6 @@ const fotos = [
         alt: "Productos frescos refrigerados",
         categoria: "FRESCURA",
         titulo: "Productos refrigerados"
-    },
-    {
-        archivo: "assets/galeria-puerta.jpeg",
-        alt: "Puerta de entrada del negocio",
-        categoria: "BIENVENIDOS",
-        titulo: "Puerta del negocio"
     },
     {
         archivo: "assets/galeria-logo.jpeg",
